@@ -1,0 +1,268 @@
+{
+  "name": "LiveTourLab Hello World",
+  "defaults": {
+    "infos": {
+      "icon": "icons/red-heart.png",
+      "iconWidth": 0.8,
+      "iconHeight": 0.8
+    }
+  },
+  "firstSceneId": "Kitchen",
+  "scenes": [
+    {
+      "id": "Kitchen",
+      "photopanos": [
+        {
+          "src": "/360_images/shutterstock_dr office.jpg",
+          "rotateY": 200
+        }
+      ],
+      "navs": [
+        {
+          "to": "Clinic",
+          "txt": "Clinic",
+          "rotateY": 45
+        }
+      ],
+      "infos": [
+        {
+          "card": [
+            {
+              "type": "image",
+              "src": "coffee-machine.jpg",
+              "ratio": 2
+            },
+            {
+              "type": "header",
+              "txt": "What is it?"
+            },
+            {
+              "type": "content",
+              "txt": "Intragloss offers a suite of tools for reading and comparing documents, identifying terms, searching for equivalents online, and creating term lists and multilingual glossaries."
+            },
+            {
+              "type": "content",
+              "txt": "\nIntragloss supports over 180 languages and is Unicode-compatible, which means it can handle diacritics, special characters, and non-ASCII languages, like Russian and Hebrew. "
+            },
+            {
+              "type": "row",
+              "buttons": [
+                {
+                  "txt": "Search",
+                  "uri": "https://aiic.net/search/text?q=labot"
+                },
+                {
+                  "txt": "H5P",
+                  "iframe": "https://h5p.org/h5p/embed/6724"
+                }
+              ]
+            }
+          ],
+          "rotateY": 225
+        }
+      ],
+      "preloads": [
+        {
+          "src": "coffee-machine.jpg"
+        },
+        {
+          "src": "1004-fraser-9-low.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Clinic",
+      "photopanos": [
+        {
+          "src": "/360_images/shutterstock_dental_clinic.jpg",
+          "rotateY": 300
+        }
+      ],
+      "navs": [
+        {
+          "to": "Backyard",
+          "txt": "Reception",
+          "rotateY": 111,
+          "rotateX": 6,
+          "nextRotateY": 130,
+          "icon": "icons/red-heart-big.png",
+          "iconWidth": 1.5,
+          "iconHeight": 1.5
+        }
+      ],
+      "infos": [
+        {
+          "card": [
+            {
+              "type": "video",
+              "src": "hm-short.mp4",
+              "ratio": 1.7
+            },
+            {
+              "type": "content",
+              "txt": "Bagwan Health Module: Patient Abuse ",
+              "textColor": "white",
+              "fontSize": 0.18
+            },
+            {
+              "type": "footer",
+              "txt": "Video attribution: Bagwan",
+              "textColor": "white"
+            }
+          ],
+          "width": 4.9,
+          "backgroundColor": "#00000011",
+          "icon": "icons/ideas-cinema.png",
+          "iconWidth": 1.5,
+          "iconHeight": 2,
+          "rotateY": 358
+        }
+      ],
+      "sounds": [
+        {
+          "src": "sparrow.mp3",
+          "volume": 1,
+          "rotateY": 160
+        }
+      ],
+      "videos": [
+        {
+          "src": "fire.mp4",
+          "imgWidth": 512,
+          "imgHeight": 512,
+          "cmWidth": 0.259765625,
+          "rotateY": 180
+        }
+      ],
+      "preloads": [
+        {
+          "src": "1004-fraser-11-low.jpg"
+        }
+      ]
+    },
+    {
+      "id": "Backyard",
+      "photopanos": [
+        {
+          "src": "/360_images/shutterstock_laborator_2.jpg",
+          "rotateY": 450
+        }
+      ],
+      "heroes": [
+        {
+          "src": "boss.jpg",
+          "width": 2,
+          "height": 2,
+          "rotateY": 35,
+          "op": 0.9
+        },
+        {
+          "src": "boss.jpg",
+          "width": 2,
+          "height": 2,
+          "rotateY": 325
+        }
+      ],
+      "infos": [
+        {
+          "card": [
+            {
+              "type": "image",
+              "src": "background_img.png",
+              "ratio": 1.9,
+              "borderWidth": 0
+            },
+            {
+              "type": "header",
+              "txt": "Bagwan Health"
+            },
+            {
+              "type": "content",
+              "txt": "Welcome to Bagwan Health!",
+              "textColor": "#000000",
+              "fontSize": 0.12
+            },
+            {
+              "type": "content",
+              "txt": "This project aims to build a digital virtual hospital showing a complex health care facility that provides a broad range of services that are delivered by staff whose competencies match with RMIT’s education delivery module. The funding for this project was secured through the Education Portfolio Pitch Tank initiative."
+            },
+            {
+              "type": "content",
+              "txt": ""
+            },
+            {
+              "type": "footer",
+              "txt": "anirudh.mana@rmit.edu.au"
+            },
+            {
+              "type": "row",
+              "buttons": [
+                {
+                  "txt": "RMIT Studios",
+                  "uri": "https://emedia.rmit.edu.au/oedvedesign/"
+                },
+                {
+                  "txt": "E-mail",
+                  "uri": "mailto:anirudh.mana@rmit.edu.au"
+                },
+                {
+                  "txt": "Msg",
+                  "uri": "https://m.me/livetourlab"
+                },
+                {
+                  "txt": "Call",
+                  "uri": "tel:0123456789"
+                }
+              ]
+            }
+          ],
+          "width": 3,
+          "backgroundColor": "#ffffffee",
+          "rotateY": "50",
+          "rotateX": "50"
+        }
+      ],
+      "photos": [
+        {
+          "src": "live-tour-lab-logo.png",
+          "imgWidth": 2048,
+          "imgHeight": 311,
+          "cmWidth": 0.6,
+          "rotateY": 142
+        },
+        {
+          "src": "live-tour-lab-logo.png",
+          "imgWidth": 2048,
+          "imgHeight": 311,
+          "cmWidth": 0.6,
+          "rotateY": 215
+        },
+        {
+          "src": "live-tour-lab-logo.png",
+          "imgWidth": 2048,
+          "imgHeight": 311,
+          "cmWidth": 0.4,
+          "rotateY": 10,
+          "opacity": 0.2,
+          "pretransform": [
+            {
+              "translate": [
+                -110,
+                -10,
+                100
+              ]
+            },
+            {
+              "rotateY": 91
+            }
+          ]
+        }
+      ],
+      "preloads": [
+        {
+          "src": "garden-table.jpg"
+        }
+      ]
+    }
+  ]
+}
